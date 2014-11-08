@@ -12,6 +12,7 @@ _________________
 * [Create a github account](https://github.com/join)
 * [Fork the Repo](https://github.com/h3llborn/2211/fork) to your profile.
 * Clone your fork to your computer
+		
 		git clone https://github.com/YOURUSERNAME/2211.git
 * Add upstream to remote github directory
 
