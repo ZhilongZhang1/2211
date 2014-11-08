@@ -16,33 +16,33 @@ _________________
 * Add upstream to remote github directory
 
 
-	git remote add upstream https://github.com/h3llborn/2211.git
-	git fetch --all
-	git pull --rebase upstream master
-	git push
+		git remote add upstream https://github.com/h3llborn/2211.git
+		git fetch --all
+		git pull --rebase upstream master
+		git push
 
 * Create a branch to work on, name it after the program
 
-	git checkout -b PROGRAMNAME master
-	git clean -df
-	git pull --rebase upstream
+		git checkout -b PROGRAMNAME master
+		git clean -df
+		git pull --rebase upstream
 
 * Push just created branch to your repo as backup
 
-git push origin PROGRAMNAME
+		git push origin PROGRAMNAME
 
 * Now that you have created your branch to work on, make changes to the code
 * Next Stage them
 
-	git status
-	git add -A
+		git status
+		git add -A
 
 * Commit changes
 
-	git commit -m "Programname: what you did"
-	git push
-	git pull --rebase upstream master
-	git checkout master
-	git pull --rebase upstream master
+		git commit -m "Programname: what you did"
+		git push
+		git pull --rebase upstream master
+		git checkout master
+		git pull --rebase upstream master
 
 * On your github submit a 'pull request' of your branch to the main repo. [About pull-requests](http://help.github.com/send-pull-requests/)	
