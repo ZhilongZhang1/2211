@@ -37,7 +37,7 @@ _________________
 		git status
 		git add -A
 
-* Commit changes
+* Commit changes & pull updates
 
 		git commit -m "Programname: what you did"
 		git push
